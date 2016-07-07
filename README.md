@@ -1,6 +1,16 @@
+musictheory.net Changes
+-------
+* Based on UglifyJS 2.4.16 (due to https://github.com/mishoo/UglifyJS2/issues/882)
+* Always compress spaces in output (even when `beautify` is `true`)
+
+-------
+-------
+-------
+
 UglifyJS 2
 ==========
 [![Build Status](https://travis-ci.org/mishoo/UglifyJS2.png)](https://travis-ci.org/mishoo/UglifyJS2)
+
 
 UglifyJS is a JavaScript parser, minifier, compressor or beautifier toolkit.
 
